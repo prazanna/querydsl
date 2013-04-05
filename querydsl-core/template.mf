@@ -1,0 +1,9 @@
+Bundle-SymbolicName: com.mysema.querydsl.core
+Bundle-Name: Querydsl Core
+Bundle-Vendor: Mysema
+Bundle-ManifestVersion: 2
+Import-Template:
+  com.mysema.commons.lang.*;version="${mysema.lang.version}",
+  javax.annotation.*;version="0",  
+  net.sf.cglib.proxy.*;version="${cglib.version}";resolution:=optional,
+  com.google.common.*;version="${guava.version}"
